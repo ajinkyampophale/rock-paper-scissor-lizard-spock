@@ -1,0 +1,45 @@
+:root{
+    --primary-color: #003699;
+    --win-color: green;
+    --lose-color: red;
+}
+
+.header-title{
+    margin-bottom: 20px;
+    /* background: var(--primary-color);
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 10px; */
+}
+
+.player-score{
+    background: #cccccc;
+    color: white;
+}
+
+.computer-score{
+    background: #a9a9a9;
+    color: white;
+}
+
+.choice{
+    cursor: pointer;
+}
+
+.choice:hover{
+    color: var(--primary-color)
+}
+
+.text-win{
+    color: var(--win-color);
+}
+
+.text-lose{
+    color: var(--lose-color);
+}
+
+.restart{
+    display: none;
+    margin-bottom: 20px;
+}
